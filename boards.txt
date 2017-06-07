@@ -242,13 +242,13 @@ generic.menu.DebugLevel.all_____.build.debug_level=-DDEBUG_ESP_CORE -DDEBUG_ESP_
 # generic.menu.FlashSize.16M.build.spiffs_blocksize=8192
 
 ##############################################################
-# ESP8285 chip has built-in 1MB flash
+# ESP8285JT chip has built-in 1MB flash
 
-esp8285.name=Generic ESP8285 Module
+esp8285.name=Generic ESP8285JT Module
 
 esp8285.upload.tool=esptool
 esp8285.upload.speed=115200
-esp8285.upload.resetmethod=ck
+esp8285.upload.resetmethod=nodemcu
 esp8285.upload.maximum_size=434160
 esp8285.upload.maximum_data_size=81920
 esp8285.upload.wait_for_upload_port=true
