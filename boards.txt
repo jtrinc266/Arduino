@@ -248,7 +248,7 @@ esp8285.name=Generic ESP8285 Module
 
 esp8285.upload.tool=esptool
 esp8285.upload.speed=115200
-esp8285.upload.resetmethod=ck
+esp8285.upload.resetmethod=nodemcu
 esp8285.upload.maximum_size=434160
 esp8285.upload.maximum_data_size=81920
 esp8285.upload.wait_for_upload_port=true
@@ -257,9 +257,9 @@ esp8285.serial.disableRTS=true
 
 esp8285.build.mcu=esp8266
 esp8285.build.f_cpu=80000000L
-esp8285.build.board=ESP8266_ESP01
+esp8285.build.board=ESP8266_NODEMCU
 esp8285.build.core=esp8266
-esp8285.build.variant=generic
+esp8285.build.variant=nodemcu
 esp8285.build.flash_mode=dout
 esp8285.build.flash_freq=40
 esp8285.build.spiffs_pagesize=256
